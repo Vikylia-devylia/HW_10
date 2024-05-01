@@ -1,0 +1,44 @@
+    1  git config --global user.name Vikylia-devylia
+    2  git config --get user.name
+    3  git config --global user.email babogloviktoria@gmail.com
+    4  git config --get user.email
+    5  git clone https://github.com/Vikylia-devylia/HW_10.git
+    6  ls -l
+    7  cd HW_10
+    8  touch text_ignore.txt
+    9  git add text_ignore.txt
+   10  git status
+   11  vim .gitignore
+   12  cd HW_10
+   13  pwd
+   14  cd New
+   15  cd HW_10
+   16  nano .gitignore
+   17  nano .gitignore
+   18  git status
+   19  git add text_ignore.txt
+   20  git status
+   21  git status
+   22  git commit -m "added new file"
+   23  git status
+   24  git add .
+   25  git commit -m "comment"
+   26  touch main_test.txt
+   27  ls -l
+   28  git add .
+   29  git commit -m "added file"
+   30  checkout -b develop
+   31  git checkout -b develop
+   32  touch develop_test.txt
+   33  git add .
+   34  git commit -m "added new file"
+   35  git log
+   36  nano develop_test.txt
+   37  git status
+   38  git add
+   39  git add .
+   40  git commit -m "update develop"
+   41  git checkout main
+   42  git merge develop
+   43  git log
+   44  history > command_list.csv
